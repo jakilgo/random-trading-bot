@@ -17,7 +17,5 @@ def main():
     tickers = get_tickers()
     print(buy_or_sell(), random.choice(tickers))
 
-
-
 if __name__ == '__main__':
     main()
